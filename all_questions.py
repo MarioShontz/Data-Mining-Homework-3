@@ -162,16 +162,16 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set()
+    answers["(a)"] = set("Group A","Group B")
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "They are the closest and share structural similarities (contiguity)"
 
     # type: set
-    answers["(b)"] = set()
+    answers["(b)"] = set("Group A","Group C")
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "They have the closest furthest points"
 
     return answers
 
@@ -183,19 +183,19 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set()
+    answers["(a) core"] = set("C","E","B","F","I","J","L","M")
 
     # type: set
-    answers["(a) boundary"] = set()
+    answers["(a) boundary"] = set("G","D")
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = set("A","H")
 
     # type: set
-    answers["(b) cluster 1"] = set()
+    answers["(b) cluster 1"] = set("F","E","C","B","D","G")
 
     # type: set
-    answers["(b) cluster 2"] = set()
+    answers["(b) cluster 2"] = set("I","J","L","M")
 
     # type: set
     answers["(b) cluster 3"] = set()
@@ -204,19 +204,19 @@ def question6():
     answers["(b) cluster 4"] = set()
 
     # type: set
-    answers["(c)-a core"] = set()
+    answers["(c)-a core"] = set("C","E","B","F","I","J","L","M","D","G")
 
     # type: set
-    answers["(c)-a boundary"] = set()
+    answers["(c)-a boundary"] = set("A","H")
 
     # type: set
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = set()
+    answers["(c)-b cluster 1"] = set("F","E","C","B","D","G","A")
 
     # type: set
-    answers["(c)-b cluster 2"] = set()
+    answers["(c)-b cluster 2"] = set("I","J","L","M","H")
 
     # type: set
     answers["(c)-b cluster 3"] = set()
@@ -234,16 +234,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Most evenly distributed across all classes"
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "More pure (mostly water)"
 
     return answers
 
@@ -255,55 +255,55 @@ def question8():
     answers = {}
 
     # type: string
-    answers["(a) Matrix 1"] = ""
+    answers["(a) Matrix 1"] = "Dataset Z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "Bluer colors in the middle two indicate higher cohesion, as in B, C"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
+    answers["(a) explain non-diag entries, Matrix 1"] = "More uniformity of the colors indicates good cohesion in all of the clusters. Distances correspond nicely with the distances shown on the graph"
 
     # type: string
-    answers["(a) Matrix 2"] = ""
+    answers["(a) Matrix 2"] = "Dataset X"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 2"] = ""
+    answers["(a) explain diag entries, Matrix 2"] = "lower cohesion in A and D is clearly shown in lesser-uniformity of squares."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "distances increase as we go to bottom left and upper right corner, indicating the row clusters from A - D."
 
     # type: string
-    answers["(a) Matrix 3"] = ""
+    answers["(a) Matrix 3"] = "Dataset Y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "A lot less cohesion in A and D, differentiating it from Dataset Z. Similar cohesion however in B and C."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 3"] = ""
+    answers["(a) explain non-diag entries, Matrix 3"] = "Similar distances between adjacent clusters, shown by the cyan squares. Far distances reflected by B-D, A-B,A-D, C-D, and C-B."
 
     # type: string
-    answers["(b) Row 1"] = ""
+    answers["(b) Row 1"] = "Cluster A"
 
     # type: string
-    answers["(b) Row 2"] = ""
+    answers["(b) Row 2"] = "Cluster B"
 
     # type: string
-    answers["(b) Row 3"] = ""
+    answers["(b) Row 3"] = "Cluster C"
 
     # type: string
-    answers["(b) Row 4"] = ""
+    answers["(b) Row 4"] = "Cluster D"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "Each value increases in distance, suggesting it is A or D. It is A because the second entry is more cohesive than the third, correspondent to B"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "Given the conclusions from the first row, this must be B, as it is more cohesive than C, and less cohesive than A."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "Given the conclusions from the first row, this must be C, as it is more cohesive than D, and less cohesive than B."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "Given the conclusions from the first row, this must be D, as it is less cohesive than A, and less cohesive than C."
 
     return answers
 
@@ -315,19 +315,19 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ['Hierarchical','Overlapping','Partial']
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ['Partitional','Exclusive','Complete']
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ['Partitional', 'Fuzzy', 'Complete']
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ['Hierarchical', 'Overlapping', 'Partial']
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ['Partitional', 'Exclusive', 'Partial']
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = ""
@@ -342,25 +342,24 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "no"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "yes"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "dbscan finds highly dense structures, which figure a is lacking in the eyes, nose, and mouth. On the other hand, figure b is dense in the eyes, nose, and mouth relative to the rest of the data."
+    # type: string
+    answers["(b) Figure (a)"] = "no"
 
     # type: string
-    answers["(b) Figure (a)"] = ""
-
-    # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "With the right K, the clusters would certainly center on the facial features in figure b, but not a due to lack of dense structures in the facial features."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "use the inverse density and use kmeans with k=4 or dbscan."
 
     return answers
 
