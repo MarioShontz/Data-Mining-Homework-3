@@ -162,13 +162,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set(["Group A","Group B"])
+    answers["(a)"] = 'set(["Group A","Group B"])'
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "They are the closest and share structural similarities (contiguity)"
 
     # type: set
-    answers["(b)"] = set(["Group A","Group C"])
+    answers["(b)"] = 'set(["Group A","Group C"])'
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "They have the closest furthest points"
@@ -183,46 +183,46 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set(["C","E","B","F","I","J","L","M"])
+    answers["(a) core"] = 'set(["C","E","B","F","I","J","L","M"])'
 
     # type: set
-    answers["(a) boundary"] = set(["G","D"])
+    answers["(a) boundary"] = 'set(["G","D"])'
 
     # type: set
-    answers["(a) noise"] = set(["A","H"])
+    answers["(a) noise"] = 'set(["A","H"])'
 
     # type: set
-    answers["(b) cluster 1"] = set(["F","E","C","B","D","G"])
+    answers["(b) cluster 1"] = 'set(["F","E","C","B","D","G"])'
 
     # type: set
-    answers["(b) cluster 2"] = set(["I","J","L","M"])
+    answers["(b) cluster 2"] = 'set(["I","J","L","M"])'
 
     # type: set
-    answers["(b) cluster 3"] = set()
+    answers["(b) cluster 3"] = 'set()'
 
     # type: set
-    answers["(b) cluster 4"] = set()
+    answers["(b) cluster 4"] = 'set()'
 
     # type: set
-    answers["(c)-a core"] = set(["C","E","B","F","I","J","L","M","D","G"])
+    answers["(c)-a core"] = 'set(["C","E","B","F","I","J","L","M","D","G"])'
 
     # type: set
-    answers["(c)-a boundary"] = set(["A","H"])
+    answers["(c)-a boundary"] = 'set(["A","H"])'
 
     # type: set
-    answers["(c)-a noise"] = set()
+    answers["(c)-a noise"] = 'set()'
 
     # type: set
-    answers["(c)-b cluster 1"] = set(["F","E","C","B","D","G","A"])
+    answers["(c)-b cluster 1"] = 'set(["F","E","C","B","D","G","A"])'
 
     # type: set
-    answers["(c)-b cluster 2"] = set(["I","J","L","M","H"])
+    answers["(c)-b cluster 2"] = 'set(["I","J","L","M","H"])'
 
     # type: set
-    answers["(c)-b cluster 3"] = set()
+    answers["(c)-b cluster 3"] = 'set()'
 
     # type: set
-    answers["(c)-b cluster 4"] = set()
+    answers["(c)-b cluster 4"] = 'set()'
 
     return answers
 
