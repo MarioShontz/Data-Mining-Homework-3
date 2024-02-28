@@ -12,7 +12,8 @@ def question1():
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "Agglomerative is less sensitive to outliers \
-        and make less assumptions about the shape of the clusters. K-means"
+        and make less assumptions about the shape of the clusters. K-means uses \
+        variance, and is highly sensitive to outliers as they can have a large affect on the centroid."
 
     # type: bool (True/False)
     answers["(b)"] = True
@@ -330,7 +331,7 @@ def question9():
     answers["(e)"] = ['Partitional', 'Exclusive', 'Partial']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Partitional because there is no hierarchy, exclusive because a person can only have one grade, and partial because not all CS students have taken the class."
 
     return answers
 
